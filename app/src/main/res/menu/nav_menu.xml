@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/icon_add"
+            android:icon="@drawable/add_icon"
+            android:title="Add"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/icon_delete"
+            android:icon="@drawable/delete_icon"
+            android:title="Delete"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/icn_back"
+            android:icon="@drawable/back_icon"
+            android:title="Back"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/icon_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help"
+            app:showAsAction="never"
+            />
+    </group>
+    <item
+        android:id="@+id/icon_menu"
+        android:icon="@drawable/menu_icon"
+        android:title="Menu"
+        app:showAsAction="always" />
+</menu>
